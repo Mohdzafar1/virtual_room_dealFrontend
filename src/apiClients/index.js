@@ -2,8 +2,8 @@ import axios from "axios";
 import { getAuthToken } from "../helper/helper";
 
 
-const clientUrl='http://localhost:8080/api/'
-
+// const clientUrl='http://localhost:8080/api/'
+const clientUrl="https://virtal-room-deal-backend.vercel.app/api"
 
 const apiClient = axios.create({
   baseURL:clientUrl,
