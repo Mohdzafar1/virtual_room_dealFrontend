@@ -3,7 +3,7 @@ import { getAuthToken } from "../helper/helper";
 
 
 // const clientUrl='http://localhost:8080/api/'
-const clientUrl="https://virtal-room-deal-backend.vercel.app/api"
+const clientUrl="https://virtal-room-deal-backend.onrender.com/api"
 
 const apiClient = axios.create({
   baseURL:clientUrl,
